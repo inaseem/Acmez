@@ -1,6 +1,6 @@
 # Acmez
 
-*** Technologies Used ***
+**Technologies Used**
 <ul>
   <li>Android</li>
   <li>Java</li>
