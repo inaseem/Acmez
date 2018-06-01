@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Acmez</string>
+    <string name="address">ACMEZ TECHNOLOGIES PVT. LTD.\n
+        #651/23, Ganga Enclave,\n
+        Roorkee-247667, Haridwar,\n
+        Uttarakhand, India.
+    </string>
+    <string name="office">Registered Office</string>
+    <string name="phone">+91 8191 00 2535</string>
+    <string name="email">info@acmez.com</string>
+    <string name="website">http://www.acmez.com/</string>
+    <string name="time">Open ⋅ Closes 8PM</string>
+</resources>
