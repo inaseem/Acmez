@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/dimen_0dp"
         android:layout_weight="1"
         android:background="@color/backgroundColor"
         android:gravity="center">
@@ -23,7 +23,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/dimen_0dp"
         android:layout_weight="2">
 
         <RelativeLayout
@@ -35,8 +35,8 @@
                 android:layout_centerInParent="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="32dp"
-                android:layout_marginRight="32dp"
+                android:layout_marginLeft="@dimen/dimen_32dp"
+                android:layout_marginRight="@dimen/dimen_32dp"
                 android:adjustViewBounds="true"
                 android:src="@drawable/map" />
 
@@ -46,22 +46,22 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginBottom="@dimen/dimen_8dp"
                     android:text="@string/office"
                     android:textColor="@color/textColor"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_24sp"
                     android:textStyle="bold" />
 
                 <View
-                    android:layout_width="48dp"
-                    android:layout_height="4dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_width="@dimen/dimen_48dp"
+                    android:layout_height="@dimen/dimen_4dp"
+                    android:layout_marginBottom="@dimen/dimen_8dp"
                     android:background="@color/underLine" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_16dp"
                     android:orientation="horizontal">
@@ -78,14 +78,14 @@
                         android:layout_marginRight="@dimen/margin_16dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
-                        android:lineSpacingExtra="8dp"
+                        android:lineSpacingExtra="@dimen/line_height_8sp"
                         android:text="@string/time"
                         android:textColor="@color/textColor"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/text_16sp" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_16dp"
                     android:orientation="horizontal">
@@ -102,14 +102,14 @@
                         android:layout_marginRight="@dimen/margin_16dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
-                        android:lineSpacingExtra="8dp"
+                        android:lineSpacingExtra="@dimen/line_height_8sp"
                         android:text="@string/address"
                         android:textColor="@color/textColor"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/text_16sp" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_16dp"
                     android:orientation="horizontal">
@@ -127,14 +127,14 @@
                         android:layout_marginRight="@dimen/margin_16dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
-                        android:lineSpacingExtra="8dp"
+                        android:lineSpacingExtra="@dimen/line_height_8sp"
                         android:text="@string/phone"
                         android:textColor="@color/textColor"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/text_16sp" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_16dp"
                     android:orientation="horizontal">
@@ -155,11 +155,11 @@
                         android:lineSpacingExtra="8dp"
                         android:text="@string/email"
                         android:textColor="@color/textColor"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/text_16sp" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_16dp"
                     android:orientation="horizontal">
@@ -177,10 +177,10 @@
                         android:layout_marginRight="@dimen/margin_16dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
-                        android:lineSpacingExtra="8dp"
+                        android:lineSpacingExtra="@dimen/line_height_8sp"
                         android:text="@string/website"
                         android:textColor="@color/textColor"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/text_16sp" />
                 </LinearLayout>
 
             </LinearLayout>
